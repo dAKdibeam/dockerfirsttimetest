@@ -1,7 +1,2 @@
-<?php session_start();?>
-
-<html>
-<head>
-  echo "Hello World";
-</head>
-</html>
+?php 
+echo "Hello ".$_SERVER['HTTP_HOST']; ?>
